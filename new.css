@@ -302,12 +302,14 @@
 .manager-info{
     font-size: 2.2rem;
     font-weight: bolder;
-    width: 30%;
+    width: 50%;
     color: white;
     font-style: italic;
     text-align: center;
     margin-right: 5vw;
     margin-left: 2vw;
+    /* border: 2px solid white; */
+    text-decoration: underline;
 
 }
 .manager_photo{
@@ -361,7 +363,7 @@
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
-    margin-bottom: 10px;
+    /* margin-bottom: 5px; */
     
 }
 
@@ -373,10 +375,10 @@
     color: rgb(107, 107, 107);
     display: flex;
     flex-direction: column;
-    justify-content: space-center;
+    justify-content: space-between;
     align-items: center;
     width: 150px;
-    margin: 30px;
+    margin: 15px 25px;
     height: 300px;
     text-align: center;
     /* border: 2px solid white; */
@@ -395,10 +397,10 @@
 }
 .partner_main{
     /* margin-top: 20vh; */
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding-top: 5vh;
@@ -435,6 +437,11 @@
     width: 150px;
     font-size: 1.4rem;
     text-align: center;
+    padding: 10px;
+}
+.table{
+    margin: 10vh 10vw;
+    margin-top: 10vh;
 }
 .partner{
     margin-bottom: 20vh;
