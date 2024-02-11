@@ -14,6 +14,7 @@
     background: url('/picture/bcg.jpg') center/cover rgba(0, 0, 0, 0.5); /* Combine background properties */
     position: relative; /* Add position relative to allow z-index to work */
     margin-bottom: -5vh;
+    
 }
 
 .heading_1 {
@@ -23,14 +24,14 @@
     padding: 3vh 10vw;
     margin: 2vw;font-weight: 900;
     font-size: xx-large;
-    color: #000; /* Set text color for better contrast */
+    color: #ffffff; /* Set text color for better contrast */
     margin-left: -5vw; /* If necessary */
 }
 
 .heading_1 h3 {
     font-size: 1.2rem;
     font-weight: 700;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -38,7 +39,7 @@
 .heading_1 h1 {
     font-size: 4rem;
     font-weight: 900;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 253, 253);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
